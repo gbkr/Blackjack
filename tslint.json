@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "no-console": false
+  },
+  "editor.formatOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
